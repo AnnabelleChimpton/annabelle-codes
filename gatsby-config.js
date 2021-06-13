@@ -5,7 +5,7 @@ module.exports = {
     siteUrl: `https://annabelle.codes`,
     description: `Annabelle Wright's personal site. Resume, blog posts, random projects, and other musings.`,
     hero: {
-      heading: `Hi. I'm Annabelle, sometimes AnnabelleChimpton. Welcome to my site.`,
+      heading: `Hi. I'm Annabelle Wright, sometimes Annabelle Chimpton, welcome to my website.`,
       maxWidth: 652,
     },
     social: [
