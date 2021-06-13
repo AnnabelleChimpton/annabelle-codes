@@ -69,3 +69,5 @@ yarn-error.log
 .yarn-integrity
 
 .netlify/
+
+!node_modules/@narative/gatsby-theme-novela/
