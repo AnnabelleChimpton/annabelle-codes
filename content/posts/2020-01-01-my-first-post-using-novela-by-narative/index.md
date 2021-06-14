@@ -1,5 +1,5 @@
 ---
-title: My first post using Novela by Narative
+title: How I Made This Site
 author: Annabelle Wright
 date: 2021-06-13
 hero: ./images/hero.jpg
