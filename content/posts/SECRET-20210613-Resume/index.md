@@ -6,11 +6,8 @@ secret: true
 slug: annabelle-wright-resume
 ---
 
-*Experienced marketer and strategist with a record of approaching business questions through an analytical lens and driving action through that analysis.*
-* *Data analysis and data driven decision making*
-* *Marketing strategy and content development*
-* *Executive presentation and public speaking*
-* *Technical background, both as a dev and dev lead*
+## Technologies
+Python, JavaScript, React, Cypress, Selenium, SQL, Git, Jira, Kubernetes, Confluence, Azure, Google Cloud
 
 ## Experience
 
