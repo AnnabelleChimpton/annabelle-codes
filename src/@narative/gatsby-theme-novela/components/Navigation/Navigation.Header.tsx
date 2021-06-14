@@ -126,6 +126,7 @@ const NavigationHeader: React.FC<{}> = () => {
           {/* Gavin 20200719: Lazy ass navigation links */}
           <div style={{marginLeft: '25px', marginRight: '25px'}}><Link to="/" style={{fontWeight: 'bolder', color: fill}}>Home</Link></div>
           <div style={{marginLeft: '25px', marginRight: '25px'}}><Link to="/annabelle-wright-resume" style={{fontWeight: 'bolder', color: fill}}>Resume</Link></div>
+          <div style={{marginLeft: '25px', marginRight: '25px'}}><Link to="/contact-me" style={{fontWeight: 'bolder', color: fill}}>Contact</Link></div>
         </LogoLink>
         <NavControls>
           {showBackArrow ? (
