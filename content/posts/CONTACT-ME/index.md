@@ -15,17 +15,12 @@ slug: contact-me
     <label>Your Email: <input type="email" name="email" /></label>
   </p>
   <p>
-    <label>Your Role: <select name="role[]" multiple>
-      <option value="leader">Leader</option>
-      <option value="follower">Follower</option>
-    </select></label>
+    <label>Your Role: <input type="role" name="role" /></label>
   </p>
   <p>
     <label>Message: <textarea name="message"></textarea></label>
   </p>
   <p>
-    <a href="/contact-me-thank-you">
-        <button type="submit">Send</button>
-    </a>
+      <button type="submit">Send</button>
   </p>
 </form>
