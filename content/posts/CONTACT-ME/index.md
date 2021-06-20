@@ -24,8 +24,6 @@ slug: contact-me
     <label>Message: <textarea name="message"></textarea></label>
   </p>
   <p>
-    <a href="/contact-me-thank-you">
-        <button type="submit">Send</button>
-    </a>
+      <button type="submit">Send</button>
   </p>
 </form>
