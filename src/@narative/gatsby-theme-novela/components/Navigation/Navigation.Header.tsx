@@ -5,6 +5,7 @@ import { useColorMode } from "theme-ui";
 
 import Section from "@components/Section";
 import Logo from "@components/Logo";
+import MenuLinks from "./MenuLinks";
 
 import Icons from "@icons";
 import mediaqueries from "@styles/media";
@@ -106,6 +107,21 @@ const NavigationHeader: React.FC<{}> = () => {
     setPreviousPath(prev);
   }, []);
 
+  const menuLinks = [
+    {
+      link:"/",
+      name:"home",
+    },
+    {
+      link:"/annabelle-wright-resume",
+      name:"resume",
+    },
+    {
+      link:"/contact-me",
+      name:"contact"
+    }
+  ]
+
   return (
     <Section>
       <NavContainer>
@@ -124,6 +140,7 @@ const NavigationHeader: React.FC<{}> = () => {
           <Logo fill={fill} />
           <Hidden>Navigate back to the homepage</Hidden>
           {/* Gavin 20200719: Lazy ass navigation links */}
+          {/* <MenuLinks fill={fill} menuLinks={menuLinks}/> */}
           <div style={{marginLeft: '25px', marginRight: '25px'}}><Link to="/" style={{fontWeight: 'bolder', color: fill}}>Home</Link></div>
           <div style={{marginLeft: '25px', marginRight: '25px'}}><Link to="/annabelle-wright-resume" style={{fontWeight: 'bolder', color: fill}}>Resume</Link></div>
           <div style={{marginLeft: '25px', marginRight: '25px'}}><Link to="/contact-me" style={{fontWeight: 'bolder', color: fill}}>Contact</Link></div>
